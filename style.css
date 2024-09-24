@@ -1,0 +1,68 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    background-image: url(contact3.jpeg);
+    background-position: 50% 0px;
+    min-height: 100vh!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+    width:100%;
+    margin:0;
+    padding:0;
+    
+
+}
+.header{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: auto;
+    font-size: 12px;
+    margin-top: 3%;
+    column-gap: 30px;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    
+}
+img{
+    width: 30px;
+}
+.img1{
+    width: px;
+    height: 30px;
+
+}
+.phone,.email,.address{
+    align-items: center;
+}
+input{
+    width: 100%;
+    outline: 0;
+    height: 30px;
+}
+.message{
+    height: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+button{
+    width: 30%;
+    align-self: center;
+    height: 30px;
+}

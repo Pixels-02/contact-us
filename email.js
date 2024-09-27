@@ -15,4 +15,8 @@ document.getElementById('sendBtn').onclick = function() {
 
         
         window.location.href = mailtoLink;
+
+        document.getElementById('name').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('message').value = '';
     };

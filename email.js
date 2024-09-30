@@ -11,7 +11,7 @@ document.getElementById('sendBtn').onclick = function() {
         }
 
         
-        var mailtoLink = `mailto:mbillocharles@gmail.com?subject=Message from ${encodeURIComponent(name)}&body=Name: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0AMessage: ${encodeURIComponent(message)}`;
+        var mailtoLink = `mailto: petersongitonga02@gmail.com?subject=Message from ${encodeURIComponent(name)}&body=Name: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0AMessage: ${encodeURIComponent(message)}`;
 
         
         window.location.href = mailtoLink;
